@@ -12,28 +12,28 @@
     <link rel="stylesheet" href="styles/portfolio.css">
 </head>
 <body>
-    
-    <header class="header">
-        <nav>
-            <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
-            <ul>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Blog</a></li>
-                <li><button class="btn-primary">Hire Me</button></li>
-            </ul>
-        </nav>
+    <header>
+        <div class="header">
+            <nav>
+                <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
+                <ul>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><button class="btn-primary">Hire Me</button></li>
+                </ul>
+            </nav>
 
-        <div class="banner">
-            <div class="banner-text">
-                <h3 class="banner-hi">Hi, I  am</h3>
-                <h1 class="banner-name">Mary Hardy</h1>
-                <p class="banner-text">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-                <button class="btn-primary btn-download"><img class="icon-download" src="images/icons/download-solid.svg" alt="">Download CV</button><button class="btn-primary btn-contact"> <img class="icon-phone" src="images/icons/phone-solid.svg" alt="">Contact</button>
+            <div class="banner">
+                <div class="banner-text">
+                    <h3 class="banner-hi">Hi, I  am</h3>
+                    <h1 class="banner-name">Mary Hardy</h1>
+                    <p class="banner-text">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
+                    <button class="btn-primary btn-download"><img class="icon-download" src="images/icons/download-solid.svg" alt="">Download CV</button><button class="btn-primary btn-contact"> <img class="icon-phone" src="images/icons/phone-solid.svg" alt="">Contact</button>
+                </div>
+                <img src="images/hardy.png" alt="" class="banner-profile">
             </div>
-            <img src="images/hardy.png" alt="" class="banner-profile">
         </div>
     </header>
-
     <main>
 <!--About-->
         <section class="about-section">
@@ -129,11 +129,33 @@
                 </div>
             </div>
         </section>
-<!-- Footer -->
-        <footer>
-            
-        </footer>
+        <div class="button-div">
+            <button class="btn-primary">Download CV</button>
+        </div>
     </main>
-    <footer></footer>
+<!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="footer-column-one">
+                <h1>Lets Connect</h1>
+                <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <div class="social-links">
+                    <a href=""><img src="images/icons/facebook.png" alt="Facebook icon" class="social-images"></a>
+                    <a href=""><img src="images/icons/insta.png" alt="Instagram icon" class="social-images"></a>
+                    <a href=""><img src="images/icons/twitter.png" alt="Twitter Icon" class="social-images"></a>
+                </div>
+            </div>
+            
+            <div class="footer-column-two">
+                <h1>Let’s Message me</h1>
+                <form class="contact-form" action="">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your E-mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input class="btn-primary" type="submit" name="Submit" id="">
+                </form>
+            </div>
+        </div>
+    </footer>    
 </body>
 </html>

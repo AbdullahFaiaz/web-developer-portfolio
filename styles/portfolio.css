@@ -46,8 +46,10 @@ nav a{
 
 
 /* header related styles */
-.header{
+header{
     background-color: #FFF8F3;
+}
+.header{
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: right bottom,left center;
@@ -221,3 +223,60 @@ main section{
     line-height: 28px; /* 175% */
     padding-right: 3rem;
 }
+.button-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+
+/* footer */
+footer{
+    background: #FFF8F3;
+}
+.footer{
+    display: flex;
+    gap: 10em;
+    min-width: 1140px;
+    max-width: 1140px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.footer-column-one> p{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-column-one,.footer-column-two{
+    width: 50%;
+
+}
+.social-images{
+    width: 24px;
+    height: 24px;
+    margin-right: 1em;
+}
+
+
+.contact-form> input:nth-of-type(-n+2){
+    margin: .8em 0px;
+    width: 461px;
+    height: 15px;
+    border-radius: 5px;
+    border: #FFF;
+    background:#FFF;  
+    padding: 2em;
+}
+.contact-form> textarea{
+    margin: .8em 0px;
+    width: 461px;
+    height: 150px;
+    border-radius: 5px;
+    border: #FFF;
+    background:#FFF;  
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
