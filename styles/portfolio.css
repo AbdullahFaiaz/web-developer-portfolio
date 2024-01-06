@@ -113,13 +113,14 @@ main{
     max-width: 1140px;
     margin: auto;
 }
-
+main section{
+    margin-top: 130px;
+}
 /* About Me section*/
 .about-section{
     height: auto;
     border-radius: 10px;
     background: #FFF8F3;
-    margin-top: 100px ;
     margin-bottom: 100px ;
     padding: 100px 100px;
     
@@ -127,13 +128,13 @@ main{
 .about-section .section-title, .section-description{
     text-align: center;
 }
-.about-section .section-title{
+.section-title{
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
-.about-section .section-description{
+.section-description{
     color:#757575;
     text-align: center;
     font-size: 18px;
@@ -157,3 +158,37 @@ main{
     display: flex;
     justify-content: space-around;
 }
+
+
+/* what i do section */
+.what-i-do-description{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 3%;
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 2.5em;
+}
+.skill-image{
+    margin-bottom: 1em;
+}
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-description{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* Resume Section */
