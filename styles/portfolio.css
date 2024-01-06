@@ -226,8 +226,15 @@ main section{
 .button-div {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-top: 4em;
     margin-bottom: 5em;
+}
+.button-div button{
+    font-size: 1.2em;
+}
+.fa-regular{
+    margin-right: .5em;
 }
 
 /* footer */
