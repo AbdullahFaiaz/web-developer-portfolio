@@ -48,15 +48,18 @@ nav a{
 /* header related styles */
 header{
     background-color: #FFF8F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header{
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: right bottom,left center;
     min-width: 1250px;
-    max-width: 1500px;
-    margin: auto;
+    max-width: 1250px;
 }
+
 .banner{
     display: flex;
     padding: 0px 0px 0px 150px;
@@ -287,3 +290,137 @@ footer{
     margin-bottom: 1em;
 }
 
+@media screen and (max-width:780px) {
+    nav{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0, auto;
+    }
+    .header{
+        min-width:380px;
+        max-width: 780px;
+        background-color: #FFF8F3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .banner-text{
+        width: 250px ;
+    }
+    .banner-profile{
+        width: 330px;
+        height: 500px;
+        margin-top: 50px;
+    }
+    .header{
+        background-image: none;
+    }
+    header{
+        background-color:#FFF8F3;
+        flex-direction: column;
+        margin: 0,auto;
+    }
+    .banner{
+        padding: 0px;
+        justify-content: center;
+        flex-direction: column; 
+    }
+
+    .btn-download{
+        margin-right: 10px ;
+        margin-top: 20px;
+    }
+
+    .banner-hi{
+
+        font-size: 25px;
+
+    }
+    .banner-name{
+
+        font-size: 55px;
+
+    }
+    .banner-text>p{
+        color:  #757575;
+        font-size: 16px;
+
+
+    }
+    .banner-text> .btn-download{
+        font-size: 10px;
+        min-width: 90px;
+        height: 50px;
+        margin-top: 20px; 
+    }
+    .banner-text> .btn-contact{
+
+        min-width: 90px;
+        height: 50px;
+        margin-top: 20px; 
+    }
+    
+}
+
+
+
+@media screen and (min-width: 780px) and (max-width: 1050px) {
+    .header{
+        width: 200px;
+    }
+    .banner-text{
+        width: 250px ;
+    }
+    .banner-profile{
+        width: 330px;
+        height: 500px;
+        margin-top: 300px;
+    }
+    .header{
+        background-image: url('../images/header_bg.png'), url('../images/developer.png');
+        background-repeat: no-repeat;
+        background-position: right bottom,left center;
+    }
+    
+    .banner{
+        padding: 0px 0px 0px 120px;
+        justify-content: space-between; 
+    }
+
+    .btn-download{
+        margin-right: 10px ;
+        margin-top: 20px;
+    }
+
+    .banner-hi{
+
+        font-size: 25px;
+
+    }
+    .banner-name{
+
+        font-size: 55px;
+
+    }
+    .banner-text>p{
+        color:  #757575;
+        font-size: 16px;
+
+
+    }
+    .banner-text> .btn-download{
+        font-size: 10px;
+        min-width: 90px;
+        height: 50px;
+        margin-top: 20px; 
+    }
+    .banner-text> .btn-contact{
+
+        min-width: 90px;
+        height: 50px;
+        margin-top: 20px; 
+    }
+    
+}
