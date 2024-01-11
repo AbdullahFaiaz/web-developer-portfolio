@@ -299,12 +299,15 @@ footer{
     }
     .header{
         min-width:380px;
-        max-width: 780px;
+        max-width: 100vh;
         background-color: #FFF8F3;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    .banner{
+        justify-content: center;
     }
     .banner-text{
         width: 250px ;
@@ -321,6 +324,7 @@ footer{
         background-color:#FFF8F3;
         flex-direction: column;
         margin: 0,auto;
+
     }
     .banner{
         padding: 0px;
