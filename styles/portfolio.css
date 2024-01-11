@@ -368,7 +368,8 @@ footer{
 
 @media screen and (min-width: 780px) and (max-width: 1050px) {
     .header{
-        width: 200px;
+        min-width:780px;
+        max-width: 100vw;
     }
     .banner-text{
         width: 250px ;
@@ -378,15 +379,64 @@ footer{
         height: 500px;
         margin-top: 300px;
     }
+    .banner{
+        padding: 0px 0px 0px 120px;
+    }
+
+    .btn-download{
+        margin-right: 10px ;
+        margin-top: 20px;
+    }
+
+    .banner-hi{
+
+        font-size: 25px;
+
+    }
+    .banner-name{
+
+        font-size: 55px;
+
+    }
+    .banner-text>p{
+        color:  #757575;
+        font-size: 16px;
+
+
+    }
+    .banner-text> .btn-download{
+        font-size: 10px;
+        min-width: 90px;
+        height: 50px;
+        margin-top: 20px; 
+    }
+    .banner-text> .btn-contact{
+
+        min-width: 90px;
+        height: 50px;
+        margin-top: 20px; 
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1050px) and (max-width: 1320px) {
     .header{
-        background-image: url('../images/header_bg.png'), url('../images/developer.png');
-        background-repeat: no-repeat;
-        background-position: right bottom,left center;
+        min-width:1050px;
+        max-width: 100vw;
+    }
+    .banner-text{
+        max-width: 450px ;
+    }
+    .banner-profile{
+        width: 350px;
+        height: 500px;
+        margin-top: 300px;
     }
     
     .banner{
-        padding: 0px 0px 0px 120px;
-        justify-content: space-between; 
+        padding: 0px 0px 0px 140px;
     }
 
     .btn-download{
